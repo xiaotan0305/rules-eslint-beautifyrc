@@ -2,11 +2,7 @@
     "parser": "babel-eslint",
     "globals": {
         // Put things like jQuery, etc
-        "define": true,
-        "seajs": true,
-        "jQuery": true,
-        "Promise": true,
-        "$": true
+        "seajs": true
     },
     "env": {
         // I write for browser
@@ -14,7 +10,9 @@
         // in CommonJS
         "node": true,
         //  for new ES6 global variables
-        "es6": true
+        "es6": true,
+        "amd" : true,
+        "jquery" : true
     },
     "parserOptions": {
         "ecmaVersion": 6,
@@ -155,7 +153,7 @@
         "comma-style": 1,
         "complexity": 0,
         "computed-property-spacing": 1,
-        "consistent-return": 1,
+        "consistent-return": 0,
         "consistent-this": [2, "that"],
         "constructor-super": 1,
         "curly": [2, "multi-line"],

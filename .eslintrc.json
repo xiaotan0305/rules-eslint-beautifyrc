@@ -22,7 +22,6 @@
         }
     },
     "extends": ["prettier"],
-    "plugins": ["prettier"],
     // To give you an idea how to override rule options:
     "rules": {
         // Tons of rules you can use, for example...
@@ -169,7 +168,7 @@
                 "properties": "never"
             }
         ],
-        "comma-dangle": 1,
+        "comma-dangle": 0,
         "comma-spacing": 0,
         "comma-style": 1,
         "complexity": 0,

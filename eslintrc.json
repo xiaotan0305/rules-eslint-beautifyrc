@@ -3,7 +3,11 @@
     "globals": {
         // Put things like jQuery, etc
         "seajs": true,
-        "wx": true
+        "wx": true,
+        "App": true,
+        "getApp": true,
+        "Page": true,
+        "getCurrentPages": true
     },
     "env": {
         // I write for browser
@@ -139,7 +143,7 @@
         "no-undef-init": 1,
         "no-undefined": 0,
         "no-unexpected-multiline": 1,
-        "no-underscore-dangle": 1, //改
+        "no-underscore-dangle": 0, //改
         "no-unneeded-ternary": 1,
         "no-unreachable": 2,
         "no-unused-expressions": [

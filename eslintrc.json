@@ -220,7 +220,7 @@
         "newline-after-var": 0,
         "object-curly-spacing": [
             2,
-            "never",
+            "always",
             {
                 "objectsInObjects": false,
                 "arraysInObjects": false

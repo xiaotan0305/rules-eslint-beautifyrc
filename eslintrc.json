@@ -1,7 +1,11 @@
 {
     "parser": "babel-eslint",
+    "plugins": [
+        "node",
+        "json",
+        "vue"
+      ],
     "globals": {
-        // Put things like jQuery, etc
         "seajs": true,
         "wx": true,
         "App": true,
@@ -10,11 +14,8 @@
         "getCurrentPages": true
     },
     "env": {
-        // I write for browser
         "browser": true,
-        // in CommonJS
         "node": true,
-        //  for new ES6 global variables
         "es6": true,
         "amd": true,
         "jquery": true
@@ -26,13 +27,11 @@
             "jsx": true
         }
     },
-    "extends": ["prettier"],
-    // To give you an idea how to override rule options:
+    "extends": ["eslint:recommended", "plugin:node/recommended"],
     "rules": {
-        // Tons of rules you can use, for example...
-        // "prettier/prettier": "error",
-        "no-alert": 0, //
-        "no-array-constructor": 1, //
+        "node/exports-style": ["error", "module.exports"],
+        "no-alert": 0,
+        "no-array-constructor": 1,
         "no-bitwise": 0,
         "no-caller": 1,
         "no-catch-shadow": 1,
@@ -76,7 +75,7 @@
         "no-inner-declarations": 1,
         "no-invalid-regexp": 1,
         "no-invalid-this": 0,
-        "no-irregular-whitespace": 0, //改
+        "no-irregular-whitespace": 0,
         "no-iterator": 1,
         "no-label-var": 1,
         "no-labels": 1,
@@ -143,7 +142,7 @@
         "no-undef-init": 1,
         "no-undefined": 0,
         "no-unexpected-multiline": 1,
-        "no-underscore-dangle": 0, //改
+        "no-underscore-dangle": 0,
         "no-unneeded-ternary": 1,
         "no-unreachable": 2,
         "no-unused-expressions": [
@@ -152,9 +151,9 @@
                 "allowShortCircuit": true,
                 "allowTernary": true
             }
-        ], //改20151014
+        ],
         "no-unused-vars": 2,
-        "no-use-before-define": [2, "nofunc"], //20151014
+        "no-use-before-define": [2, "nofunc"],
         "no-useless-call": 0,
         "no-void": 1,
         "no-var": 0,

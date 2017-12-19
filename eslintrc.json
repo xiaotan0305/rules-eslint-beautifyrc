@@ -21,7 +21,7 @@
         "jquery": true
     },
     "parserOptions": {
-        "ecmaVersion": 6,
+        "ecmaVersion": 2017,
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true
@@ -30,6 +30,10 @@
     "extends": ["eslint:recommended", "plugin:node/recommended"],
     "rules": {
         "node/exports-style": ["error", "module.exports"],
+        "node/no-unsupported-features": ["error", {
+            "version": 8,
+            "ignores": []
+        }],
         "no-alert": 0,
         "no-array-constructor": 1,
         "no-bitwise": 0,

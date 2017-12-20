@@ -114,7 +114,7 @@
         "no-path-concat": 1,
         "no-plusplus": 0,
         "no-process-env": 0,
-        "no-process-exit": 1,
+        "no-process-exit": 0,
         "no-proto": 1,
         "no-redeclare": [
             2,

@@ -46,7 +46,7 @@
         "no-constant-condition": 1,
         "no-continue": 0,
         "no-control-regex": 1,
-        "no-debugger": 1,
+        "no-debugger": 0,
         "no-delete-var": 1,
         "no-div-regex": 1,
         "no-dupe-keys": 1,

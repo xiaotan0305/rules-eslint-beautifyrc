@@ -3,7 +3,7 @@
     "plugins": [
         "node",
         "json",
-        "Vue"
+        "vue"
       ],
     "globals": {
         "seajs": true,
@@ -11,7 +11,8 @@
         "App": true,
         "getApp": true,
         "Page": true,
-        "getCurrentPages": true
+        "getCurrentPages": true,
+        "Vue": true
     },
     "env": {
         "browser": true,

@@ -1,0 +1,31 @@
+{
+    "_comments": [
+        "Valid terminals include: 'Terminal.app' or 'iTerm'",
+        "In the editor value change 'default' to 'nano', 'vi', or another terminal based editor.",
+        "Hosts will also be read from your ~/.ssh/config or /etc/ssh_config file, if available",
+        "For more information on how to configure, please see http://fitztrev.github.io/shuttle/"
+    ],
+    "editor": "default",
+    "launch_at_login": false,
+    "terminal": "iTerm.app",
+    "iTerm_version": "nightly",
+    "default_theme": "robbyrussell",
+    "open_in": "tab",
+    "show_ssh_config_hosts": false,
+    "ssh_config_ignore_hosts": [],
+    "ssh_config_ignore_keywords": [],
+    "hosts": [
+        {
+            "cmd": "ssh wirelessgroup1@10.16.132.133 -p 33777",
+            "name": "10.16.132.133",
+            "inTerminal": "tab",
+            "title": "node-133"
+        },
+        {
+            "cmd": "ssh wirelessgroup1@10.16.132.134 -p 33777",
+            "name": "10.16.132.134",
+            "inTerminal": "tab",
+            "title": "node-134"
+        }
+    ]
+}

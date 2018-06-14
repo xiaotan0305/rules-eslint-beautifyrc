@@ -12,7 +12,9 @@
         "getApp": true,
         "Page": true,
         "getCurrentPages": true,
-        "Vue": true
+        "Vue": true,
+        "fangimjs": true,
+        "THREE": true
     },
     "env": {
         "browser": true,
@@ -258,7 +260,8 @@
             2,
             {
                 "anonymous": "never",
-                "named": "never"
+                "named": "always",
+                "asyncArrow": "never"
             }
         ],
         "space-in-parens": 1,

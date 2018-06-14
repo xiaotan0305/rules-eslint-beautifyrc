@@ -260,7 +260,7 @@
             2,
             {
                 "anonymous": "never",
-                "named": "always",
+                "named": "ignore",
                 "asyncArrow": "never"
             }
         ],

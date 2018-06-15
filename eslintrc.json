@@ -259,8 +259,8 @@
         "space-before-function-paren": [
             2,
             {
-                "anonymous": "ignore",
-                "named": "ignore",
+                "anonymous": "never",
+                "named": "always",
                 "asyncArrow": "ignore"
             }
         ],

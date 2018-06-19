@@ -260,8 +260,8 @@
             2,
             {
                 "anonymous": "never",
-                "named": "always",
-                "asyncArrow": "ignore"
+                "named": "never",
+                "asyncArrow": "never"
             }
         ],
         "space-in-parens": 1,

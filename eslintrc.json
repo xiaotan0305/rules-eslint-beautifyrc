@@ -15,7 +15,8 @@
         "getCurrentPages": true,
         "Vue": true,
         "fangimjs": true,
-        "THREE": true
+        "THREE": true,
+        "layui": true
     },
     "env": {
         "browser": true,

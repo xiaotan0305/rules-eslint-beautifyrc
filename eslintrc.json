@@ -41,13 +41,8 @@
             "error",
             "module.exports"
         ],
-        "node/no-unsupported-features": [
-            "warn",
-            {
-                "version": "8.11.3",
-                "ignores": []
-            }
-        ],
+        "node/no-unsupported-features": 0,
+        "node/no-unsupported-features/es-syntax": 0,
         "no-alert": 0,
         "no-array-constructor": 1,
         "no-bitwise": 0,
